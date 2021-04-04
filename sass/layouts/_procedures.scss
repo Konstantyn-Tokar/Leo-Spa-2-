@@ -1,0 +1,59 @@
+.procedures {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .section-description {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 114px;
+  }
+  .procedures-list {
+    display: flex;
+    margin-top: -28px;
+    margin-left: -28px;
+  }
+  .procedures-item {
+    flex-basis: calc(100% / 3 - 28px);
+    margin-top: 28px;
+    margin-left: 28px;
+    width: 360px;
+    border: 1px solid #e3e6ea;
+    text-align: center;
+    padding: 20px 20px 46px;
+  }
+  .procedures-item:hover {
+    border: none;
+    box-shadow: 0 10px 20px #e3e6ea;
+  }
+  
+  .procedures-item:hover .read-more-link {
+    background-color: var(--accent-color);
+  }
+  
+  .procedure-desc {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .title-prof {
+    font-size: 22px;
+    line-height: 1.22;
+    color: var(--title-color);
+    font-weight: 700;
+    font-family: var(--secondary-font);
+    text-align: center;
+    padding: 20px 0;
+  }
+  .item-description {
+    font-size: 14px;
+    line-height: 1.92;
+    color: var(--item-color);
+    font-weight: 300;
+    font-family: var(--main-font);
+    text-align: center;
+    padding: 0 40px;
+    margin-bottom: 44px;
+  }
+  

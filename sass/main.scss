@@ -1,0 +1,15 @@
+@import './base/normalize';
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './base/common';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/about';
+@import './layouts/features';
+@import './layouts/procedures';
+@import './layouts/contact';
+@import './layouts/team';
+@import './components/form';
+@import './layouts/blog';

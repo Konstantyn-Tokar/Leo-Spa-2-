@@ -1,0 +1,38 @@
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.adress {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  /*outline: 1px solid teal;*/
+}
+.section {
+  align-items: center;
+}
+img {
+  display: block;
+}

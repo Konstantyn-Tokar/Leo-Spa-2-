@@ -1,0 +1,49 @@
+.blog {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.blog .section-title {
+  margin-bottom: 30px;
+}
+.adress-link {
+  font-size: 14px;
+  line-height: 1.92;
+  color: var(--item-color);
+  font-weight: 400;
+  font-family: var(--main-font);
+}
+.adress-form {
+  font-size: 12px;
+  line-height: 2.25;
+  color: #999999;
+  font-weight: 300;
+  font-family: var(--main-font);
+}
+.adress-btn {
+  font-size: 13px;
+  line-height: 2.07;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: var(--main-font);
+  text-align: center;
+  background-color: var(--accent-color);
+}
+.logo-footer {
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 2.4;
+  color: #211833;
+  font-weight: 400;
+  font-family: var(--logo-font);
+}
+.copyright {
+  font-size: 13px;
+  line-height: 1.92;
+  color: var(--item-color);
+  font-weight: 400;
+  font-family: var(--main-font);
+  text-align: center;
+}
+.copy-link {
+  color: var(--accent-color);
+}

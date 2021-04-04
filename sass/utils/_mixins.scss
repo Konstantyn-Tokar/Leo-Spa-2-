@@ -1,0 +1,25 @@
+// @include flex-colum(column,center) -так использовать mixin
+@mixin flex-column($flex, $justify) {
+  display: flex;
+  flex-flow: $flex;
+  justify-self: $justify;
+}
+
+@mixin text($size, $line: 1, $weight: 400, $color: $text-color) {
+  font-size: $size;
+  line-height: $line;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin text2($size, $line: $size, $weight: 400, $color: $text-color) {
+  font-size: $size;
+  line-height: decimal-round($line/$size);
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin text-align($mb, $align: center) {
+  margin-bottom: $mb;
+  text-align: $align;
+}

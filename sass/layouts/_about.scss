@@ -1,0 +1,56 @@
+.about-salon {
+  padding-top: 205px;
+  padding-bottom: 70px;
+}
+.about-salon .container {
+  // display: flex;
+  // flex-flow: column;
+  // justify-self: center;
+  @include flex-column(column, center);
+}
+.about-logo {
+  @extend %margin-auto;
+  margin-bottom: 40px;
+}
+.about-suptitle {
+  @include text-align(35px);
+  @include text(20px, 2.7, null, $item-color);
+  letter-spacing: 2px;
+}
+.about-title {
+  @include text(42px, 1.3, 700, $black);
+  font-family: var(--secondary-font);
+  @include text-align(38px);
+}
+.about-description {
+  @include text(15px, 1.86, 300);
+  width: 863px;
+  height: 71px;
+  @extend %margin-auto;
+  @include text-align(71px);
+}
+.read-more-link {
+  @include text(13px, null, 500);
+  display: inline-block;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #30383b;
+  border-radius: 35px;
+  padding: 21px 48px;
+  text-transform: uppercase;
+}
+.section-title {
+  font-size: 42px;
+  color: var(--title-color);
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+.section-description {
+  @include text2(15px, 27px, 300, $item-color);
+  width: 674px;
+  height: 43px;
+  text-align: center;
+}
